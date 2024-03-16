@@ -206,6 +206,10 @@
     <Compile Include="Migrations\202403160812012_ApplyMovieShowTimeShowDay.Designer.cs">
       <DependentUpon>202403160812012_ApplyMovieShowTimeShowDay.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202403161040052_ApplyChangeToInvoice.cs" />
+    <Compile Include="Migrations\202403161040052_ApplyChangeToInvoice.Designer.cs">
+      <DependentUpon>202403161040052_ApplyChangeToInvoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Entities\Invoice.cs" />
@@ -348,6 +352,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202403160812012_ApplyMovieShowTimeShowDay.resx">
       <DependentUpon>202403160812012_ApplyMovieShowTimeShowDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403161040052_ApplyChangeToInvoice.resx">
+      <DependentUpon>202403161040052_ApplyChangeToInvoice.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

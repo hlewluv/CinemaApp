@@ -35,7 +35,7 @@ namespace CinemaApp.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Invoice_Detail>()
+            modelBuilder.Entity<Invoice>()
                 .HasRequired(a => a.Account)
                 .WithMany()
                 .WillCascadeOnDelete(false);

@@ -13,6 +13,8 @@ namespace CinemaApp.Models.Entities
         public int InvoiceId { get; set; }
         public bool Status { get; set; }
         public DateTime DateCreate { get; set; }
+        public string AccountId { get; set; }
+        public ApplicationUser Account { get; set; }
         public virtual Invoice_Detail InvoiceDetail { get; set; }
     }
 }

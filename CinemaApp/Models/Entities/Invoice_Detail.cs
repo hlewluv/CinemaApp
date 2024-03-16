@@ -13,11 +13,6 @@ namespace CinemaApp.Models.Entities
         public int Invoice_DetailId { get; set; }
         public int SeatId { get; set; }
         public bool Status { get; set; }
-        public string AccountId { get; set; }
-
-
-        public ApplicationUser Account { get; set; }
-        [Required]
 
         [ForeignKey("Invoice")]
         public int InvoiceID { get; set; }
